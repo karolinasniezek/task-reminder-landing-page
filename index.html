@@ -5,13 +5,16 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Task Reminder Landing Page</title>
   </head>
   <body>
     <div>
       <div class="navbar">
         <div class="container">
-          <a href="#">Remember<span>That</span></a>
+          <a class="logo" href="#">Remember<span>That</span></a>
           <img id="mobile-cta" class="mobile-menu" src="./public/menu.svg" alt="Open navigation">
           <nav>
             <img id="mobile-exit" class="mobile-menu-exit"  src="./public/exit.svg" alt="cose navigation">
@@ -32,27 +35,29 @@
         <div class="container">
           <div class="left-col">
             <p class="sub-head">It's Nitty &amp; Gritty</p>
-            <h1>A Task Reminder App</h1>
+            <h1>A Task Reminder Application</h1>
             <div class="hero-cta">
               <a href="#" class="primary-cta">Try for free</a>
-              <li class="watch-video-cta"><a href="#">
+              <a class="watch-video-cta" href="#">
                 <img src="./public/watch.svg" alt="Watch a video">Watch a video
-              </a></li>
+              </a>
             </div>
           </div>
-          <img src="./public/illustration.svg" alt="hero-img">
+          <img src="./public/illustration.svg" class="hero-img">
         </div>
       </section>
-      <section class="featured">
-        <ul class="features-list">
-          <li>Unlimited Tasks</li>
-          <li>SMS Task Reminders</li>
-          <li>Confetti Explosions upon Task Completions</li>
-          <li>Social Media Announcements</li>
-          <li>Real Time Collaboration</li>
-          <li>Other awesome features</li>
-      </ul>
-      <img src="./public/iphone.jpeg" alt="Women holding iPhone">
+      <section class="features-section">
+        <div class="container">
+          <ul class="features-list">
+            <li>Unlimited Tasks</li>
+            <li>SMS Task Reminders</li>
+            <li>Confetti Explosions upon Task Completions</li>
+            <li>Social Media Announcements</li>
+            <li>Real Time Collaboration</li>
+            <li>Other awesome features</li>
+        </ul>
+        <img src="./public/iphone.jpeg" alt="Women holding iPhone">
+        </div>
       </section>
       <section class="testimonials-section">
         <div class="container">
@@ -60,20 +65,20 @@
             <li>
                 <img src="./public/person.jpeg" alt="Person">
 
-                <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
-                <cite>- Joe Doe</cite>
+                <blockquote>"The interface is clean and intuitive, making it easy to set up reminders and organize my tasks. I especially love the recurring task feature."</blockquote>
+                <cite>David Johnson</cite>
             </li>
             <li>
-                <img src="./public/person.jpeg" alt="Person">
+                <img src="./public/person2.jpeg" alt="Person">
 
-                <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
-                <cite>- Joe Doe</cite>
+                <blockquote>"Task Reminder is a game-changer for me. As a busy professional, I often struggle to keep track of all my commitments. This app ensures I never miss a deadline or appointment."</blockquote>
+                <cite>- Nick Lutz</cite>
             </li>
             <li>
-                <img src="./public/person.jpeg" alt="Person">
+                <img src="./public/person3.jpeg" alt="Person">
 
-                <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
-                <cite>- Joe Doe</cite>
+                <blockquote>"The ability to categorize tasks and set priorities helps me focus on what's most important. The only downside is that the free version has limited features, but the premium upgrade is definitely worth it. Highly recommend it to anyone who needs a reliable task management solution."</blockquote>
+                <cite>- James Anderson</cite>
             </li>
         </ul>
         </div>
